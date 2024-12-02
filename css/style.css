@@ -423,11 +423,29 @@ footer .credit p {
 
   .about .row {
     flex-wrap: wrap;
+    text-align: center;
   }
 
   .about .about-img img {
     height: 25rem;
     width: 100%; /* Adjust width as needed, or keep it auto if aspect ratio is to be maintained */
+    object-fit: cover;
+    display: block; /* Makes the image a block-level element */
+    margin: auto; /* Centers the image horizontally */
+  }
+
+  .program .row .program-card img {
+    width: 40%;
+  }
+
+  .testimony .row {
+    flex-wrap: wrap;
+    text-align: center;
+  }
+
+  .testimony .testimony-img img {
+    height: 10rem;
+    width: 20%; /* Adjust width as needed, or keep it auto if aspect ratio is to be maintained */
     object-fit: cover;
     display: block; /* Makes the image a block-level element */
     margin: auto; /* Centers the image horizontally */
