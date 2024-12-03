@@ -162,6 +162,13 @@ body {
   justify-content: center;
 }
 
+.scholarship-intro {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
 /* About */
 
 .about,
@@ -474,6 +481,11 @@ footer .credit p {
 
   .program p {
     font-size: 1.2rem;
+  }
+
+  .scholarship-intro .content .scholarship-card img {
+    max-width: 100%;
+    height: auto;
   }
 }
 
