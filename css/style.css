@@ -150,7 +150,13 @@ body {
   box-shadow: 1px 1px 3px rgba(1, 1, 3, 0.5);
 }
 
-.scholarship-intro .content .cta {
+.scholarship-intro .content .cta,
+.scholarship-2 .content .cta,
+.scholarship-3 .content .cta,
+.scholarship-4 .content .cta,
+.scholarship-5 .content .cta,
+.scholarship-6 .content .cta,
+.scholarship-outro .content .cta {
   margin-top: 1rem;
   display: inline-block;
   padding: 1rem 3rem;
@@ -382,6 +388,23 @@ footer .credit {
 footer .credit p {
   color: var(--primary);
   font-weight: 700;
+}
+
+/* Scholarship */
+
+.scholarship-intro .content,
+.scholarship-2 .content,
+.scholarship-3 .content,
+.scholarship-4 .content,
+.scholarship-5 .content,
+.scholarship-6 .content,
+.scholarship-outro .content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; /* Ensures the container is tall enough */
+  padding: 20px; /* Adds padding if needed */
 }
 
 /* Media Queries */
