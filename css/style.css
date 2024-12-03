@@ -154,9 +154,7 @@ body {
 .scholarship-2 .content .cta,
 .scholarship-3 .content .cta,
 .scholarship-4 .content .cta,
-.scholarship-5 .content .cta,
-.scholarship-6 .content .cta,
-.scholarship-outro .content .cta {
+.scholarship-5 .content .cta {
   margin-top: 1rem;
   display: inline-block;
   padding: 1rem 3rem;
@@ -397,8 +395,7 @@ footer .credit p {
 .scholarship-3 .content,
 .scholarship-4 .content,
 .scholarship-5 .content,
-.scholarship-6 .content,
-.scholarship-outro .content {
+.scholarship-6 .content {
   display: flex;
   flex-direction: column;
   justify-content: center;
